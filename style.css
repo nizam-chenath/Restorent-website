@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+::before,
+::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+}
+.container{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+
+.header .logo{
+
+}
+.header .nav-toggler{
+    height: 34px;
+    width: 44px;
+}
